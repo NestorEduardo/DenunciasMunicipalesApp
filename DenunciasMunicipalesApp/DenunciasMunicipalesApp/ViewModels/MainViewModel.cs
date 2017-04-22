@@ -11,6 +11,8 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private ApiService apiService;
 
+        private NavigationService navigationService;
+
         #endregion
 
         #region Properties
@@ -21,7 +23,9 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         public MainViewModel()
         {
+            // Services
             apiService = new ApiService();
+            navigationService = new NavigationService();
         }
 
         #endregion
