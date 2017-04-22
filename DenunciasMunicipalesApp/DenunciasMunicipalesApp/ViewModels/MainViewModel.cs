@@ -1,4 +1,7 @@
 ﻿using DenunciasMunicipalesApp.Services;
+using GalaSoft.MvvmLight.Command;
+using System.Windows.Input;
+using System;
 
 namespace DenunciasMunicipalesApp.ViewModels
 {
@@ -26,5 +29,17 @@ namespace DenunciasMunicipalesApp.ViewModels
         #region Methods
 
         #endregion
+
+        #region Commands
+
+        public ICommand AddComplaintCommand { get { return new RelayCommand(AddComplaint); } }
+
+        private void AddComplaint()
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
+
     }
 }
