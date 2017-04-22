@@ -5,4 +5,8 @@
              Title="Denuncias Municipales"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
     <Label Text="Pantalla de denuncias" VerticalOptions="Center" HorizontalOptions="Center" />
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="ic_action_add_circle.png" Command="{Binding AddComplaintCommand}"/>
+    </ContentPage.ToolbarItems>
+
 </ContentPage>
