@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using DenunciasMunicipalesApp.Pages;
 using Xamarin.Forms;
 
 namespace DenunciasMunicipalesApp
@@ -12,8 +8,7 @@ namespace DenunciasMunicipalesApp
         public App()
         {
             InitializeComponent();
-
-            MainPage = new DenunciasMunicipalesApp.MainPage();
+            MainPage = new NavigationPage(new ComplaintsPage());
         }
 
         protected override void OnStart()
