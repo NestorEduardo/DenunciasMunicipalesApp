@@ -1,33 +1,28 @@
 ﻿using DenunciasMunicipalesApp.Services;
 using GalaSoft.MvvmLight.Command;
 using System.Windows.Input;
-using System;
 
 namespace DenunciasMunicipalesApp.ViewModels
 {
     public class MainViewModel
     {
         #region Attributes
-
         private ApiService apiService;
 
         private NavigationService navigationService;
-
         #endregion
 
         #region Properties
-
+        public NewComplaintViewModel NewComplaint{ get; set; }
         #endregion
 
         #region Constructors
-
         public MainViewModel()
         {
             // Services
             apiService = new ApiService();
             navigationService = new NavigationService();
         }
-
         #endregion
 
         #region Methods
@@ -35,15 +30,12 @@ namespace DenunciasMunicipalesApp.ViewModels
         #endregion
 
         #region Commands
-
         public ICommand AddComplaintCommand { get { return new RelayCommand(AddComplaint); } }
 
-        private void AddComplaint()
+        private async void AddComplaint()
         {
-            throw new NotImplementedException();
+            await navigationService.Navigate("NewComplaintPage");
         }
-
         #endregion
-
     }
 }
