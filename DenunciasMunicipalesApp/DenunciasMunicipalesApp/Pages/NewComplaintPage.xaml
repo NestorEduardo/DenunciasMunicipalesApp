@@ -2,8 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DenunciasMunicipalesApp.Pages.NewComplaintPage"
-               Title="Nueva denuncia"
+             Title="Nueva denuncia"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
-    <Label Text="Pantalla de nuva denuncia" VerticalOptions="Center" HorizontalOptions="Center" />
+    <StackLayout
+    BindingContext="{Binding NewComplain}"
+    Padding="8">
+        <Label
+      Text="Descripción">
+        </Label>
+        <Entry
+      Text="{Binding Description, Mode=TwoWay}"
+      Placeholder="Escriba una descripción...">
+        </Entry>
+
+        <Label
+      Text="Dirección del caso">
+        </Label>
+        <Entry
+      Text="{Binding CaseAddress, Mode=TwoWay}"
+      Placeholder="Escriba una dirección del caso...">
+        </Entry>
+
+        <ActivityIndicator
+      IsRunning="{Binding IsRunning, Mode=TwoWay}">
+        </ActivityIndicator>
+        <Button
+      Command="{Binding NewCaomplintCommand}"
+      IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+      BorderRadius="20"
+      HeightRequest="40"
+      BackgroundColor="Blue"
+      TextColor="White"
+      Text="Nueva">
+        </Button>
+    </StackLayout>
+</ContentPage>
+
 
 </ContentPage>
