@@ -8,7 +8,7 @@ namespace DenunciasMunicipalesApp
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new ComplaintsPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

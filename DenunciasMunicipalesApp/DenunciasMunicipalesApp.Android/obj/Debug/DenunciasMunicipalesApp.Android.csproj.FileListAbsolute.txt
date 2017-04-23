@@ -137,7 +137,6 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.pdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.dll.config
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\FormsViewGroup.pdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\GalaSoft.MvvmLight.pdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\GalaSoft.MvvmLight.xml
@@ -173,8 +172,17 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable-hdpi\ic_action_add_circle.png
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\R.cs.flag
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\uploadflags.txt
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Java.Interop.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Mono.Android.dll.mdb
@@ -191,9 +199,6 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\System.Xml.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
@@ -220,10 +225,5 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
-C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
-C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
-C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
-C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb

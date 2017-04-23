@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,7 +22,7 @@ namespace DenunciasMunicipalesApp.Pages
         {
 
             Navigation.PushAsync(new ComplaintsPage());
-            
+
             /*if (string.IsNullOrEmpty(txtcorreo.Text))
             {
                 await DisplayAlert("Error", "Debe ingregar un correo válido", "Aceptar");

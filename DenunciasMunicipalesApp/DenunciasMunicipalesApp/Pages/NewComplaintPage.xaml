@@ -5,36 +5,66 @@
              x:Class="DenunciasMunicipalesApp.Pages.NewComplaintPage"
              Title="Nueva denuncia"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
-    <StackLayout
-        Padding="8"
-    BindingContext="{Binding NewComplaint}">
-        <Label
-      Text="Description">
-        </Label>
-        <Entry
-      Text="{Binding Description, Mode=TwoWay}"
-      Placeholder="Escriba una descripción...">
-        </Entry>
+    
+        <StackLayout Padding="30"
+                     Spacing="10"
+                     BindingContext="{Binding NewComplaint}">
 
-        <Label
-      Text="Dirección del caso">
-        </Label>
-        <Entry
-      Text="{Binding CaseAddress, Mode=TwoWay}"
-      Placeholder="Escriba una dirección del caso...">
-        </Entry>
+        <Picker Title="Tipo de Denuncia"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="500">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Vertedero</x:String>
+                    <x:String>No Pasa el Camión</x:String>
+                    <x:String>Parque Descuidado</x:String>
+                    <x:String>Calles no Asfaltadas</x:String>
+                    <x:String>Escombros</x:String>
+                    <x:String>Alumbrado de Parque</x:String>
+                    <x:String>Drenaje Tapado</x:String>
+                    <x:String>Semáforo Dañado</x:String>
+                    <x:String>Arboles Caídos</x:String>
+                    <x:String>Otros</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
 
-        <ActivityIndicator
-      IsRunning="{Binding IsRunning, Mode=TwoWay}">
+        <Entry Text="{Binding CaseAddress, Mode=TwoWay}"
+                   Placeholder="Dirección del Caso"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="500"
+                   HeightRequest="70"/>
+
+            <Entry Text="{Binding Description, Mode=TwoWay}"
+                   Placeholder="Descripción del Caso"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="500"
+                   HeightRequest="70"/>
+
+        <ActivityIndicator IsRunning="{Binding IsRunning, Mode=TwoWay}">
+            
         </ActivityIndicator>
-        <Button
-      Command="{Binding NewComplaintCommand}"
-      IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
-      BorderRadius="20"
-      HeightRequest="40"
-      BackgroundColor="Blue"
-      TextColor="White"
-      Text="Nueva">
-        </Button>
+
+            <Button Command="{Binding NewComplaintCommand}"
+                IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
+                BorderRadius="20"
+                HeightRequest="60"
+                BackgroundColor="Navy"
+                TextColor="White"
+                Text="Enviar Denuncia"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="500"/>
+
+            <Button HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Image="camara.png"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    BackgroundColor="White"/>
+
     </StackLayout>
 </ContentPage>

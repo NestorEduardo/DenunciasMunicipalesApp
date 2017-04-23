@@ -37,3 +37,43 @@ C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMuni
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.Page1.xaml.g.cs
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.config
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.csproj.App.config
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.csprojResolveAssemblyReference.cache
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.MainPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.App.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.ComplaintsPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.NewComplaintPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.LoginPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.AddUserPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
