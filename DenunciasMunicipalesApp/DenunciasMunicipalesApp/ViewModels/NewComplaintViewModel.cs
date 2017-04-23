@@ -27,14 +27,14 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         #region Properties
 
-        public string Descrpition
+        public string Description
         {
             set
             {
                 if (description != value)
                 {
                     description = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Descrpition"));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Description"));
                 }
             }
             get
@@ -113,13 +113,13 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private async void NewComplaint()
         {
-            if (string.IsNullOrEmpty(Descrpition))
+            if (string.IsNullOrEmpty(Description))
             {
                 await dialogService.ShowMessage("Error", "Debe ingresar una descripción");
                 return;
             }
 
-            if (string.IsNullOrEmpty(Descrpition))
+            if (string.IsNullOrEmpty(CaseAddress))
             {
                 await dialogService.ShowMessage("Error", "Debe ingresar una dirección del caso");
                 return;
@@ -127,9 +127,9 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             var complaint = new Complaint
             {
-                Description = Descrpition,
+                Description = Description,
                 CaseAddress = CaseAddress,
-                Date = DateTime.Now, 
+                Date = DateTime.Today, 
                 CreatedBy = "Alfredo Martinez",
             };
 

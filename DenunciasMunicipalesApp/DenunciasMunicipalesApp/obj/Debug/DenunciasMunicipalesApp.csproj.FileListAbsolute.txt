@@ -34,5 +34,6 @@ C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMuni
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.csproj.App.config
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.NewComplaintPage.xaml.g.cs
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.Page1.xaml.g.cs
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb

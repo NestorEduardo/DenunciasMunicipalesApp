@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:DenunciasMunicipalesApp.Controls"
              x:Class="DenunciasMunicipalesApp.Pages.NewComplaintPage"
              Title="Nueva denuncia"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
     <StackLayout
-    BindingContext="{Binding NewComplain}"
-    Padding="8">
+        Padding="8"
+    BindingContext="{Binding NewComplaint}">
         <Label
-      Text="Descripción">
+      Text="Description">
         </Label>
         <Entry
       Text="{Binding Description, Mode=TwoWay}"
@@ -27,7 +28,7 @@
       IsRunning="{Binding IsRunning, Mode=TwoWay}">
         </ActivityIndicator>
         <Button
-      Command="{Binding NewCamplaintCommand}"
+      Command="{Binding NewComplaintCommand}"
       IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
       BorderRadius="20"
       HeightRequest="40"

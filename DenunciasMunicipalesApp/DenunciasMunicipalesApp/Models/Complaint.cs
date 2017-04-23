@@ -2,7 +2,7 @@
 
 namespace DenunciasMunicipalesApp.Models
 {
-    class Complaint
+    public class Complaint
     {
         public int ComplaintId { get; set; }
 
