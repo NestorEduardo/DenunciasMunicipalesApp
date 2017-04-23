@@ -109,7 +109,6 @@ C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMuni
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.IO.Compression.dll.mdb
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Numerics.dll.mdb
 C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
-C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.config
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.pdb
@@ -224,4 +223,7 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\asde.png
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\res\drawable\camara.png
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
+C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb
