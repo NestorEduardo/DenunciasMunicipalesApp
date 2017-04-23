@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DenunciasMunicipalesApp.Pages.LoginPage">
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout Spacing="10" 
+                         Padding="30">
+
+                <Image Source="asde.png"/>
+
+                <Label  Text="Denuncias ASDE"
+                        TextColor="White"
+                        Font="29"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Center"/>
+
+                <Entry  x:Name="txtcorreo"
+                        Placeholder="Correo electrónico"
+                        TextColor="Gray"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="500"/>
+
+                <Entry  x:Name="txtcontraseña"
+                        Placeholder="Contraseña"
+                        TextColor="Gray"
+                        IsPassword="true"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="500"/>
+
+                <Button x:Name="accederButton"
+                        Text="Acceder"
+                        TextColor="White"
+                        BackgroundColor="Navy"
+                        HeightRequest="60"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="500"/>
+
+                <Button x:Name="crearUsuario"
+                        Text="Nuevo Usuario" 
+                        TextColor="White"
+                        BackgroundColor="Green"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="500"
+                        HeightRequest="60"
+                        Clicked="registrarButton_Clicked"/>
+
+                <ActivityIndicator x:Name="waitActivityIndicator">
+
+                </ActivityIndicator>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>

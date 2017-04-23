@@ -2,19 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\nesto\Desktop\DenunciasMuncipales\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\__library_projects__\GalaSoft.MvvmLight.Platform.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

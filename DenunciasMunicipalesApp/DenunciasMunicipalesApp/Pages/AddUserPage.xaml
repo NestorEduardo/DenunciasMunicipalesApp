@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DenunciasMunicipalesApp.Pages.AddUserPage">
+
+    <ContentPage.Content>
+
+        <ScrollView>
+
+            <StackLayout Spacing="10">
+
+                <Entry x:Name="entryNombre"
+                   TextColor="Gray"
+                   Placeholder="Nombres"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="300"/>
+
+                <Entry x:Name="entryCorreo"
+                   TextColor="Gray"
+                   Placeholder="Correo electrónico"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="300"/>
+
+                <Entry x:Name="entryContraseña"
+                   TextColor="Gray"
+                   Placeholder="Contraseña"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="300"/>
+
+                <Entry x:Name="entryConfirmarContraseña"
+                   TextColor="Gray"
+                   Placeholder="Confirmar contraseña"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   WidthRequest="300"/>
+
+                <Button x:Name="registarButton"
+                    Text="Registrar"
+                    BackgroundColor="Red"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    HeightRequest="60"
+                    WidthRequest="300"/>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>
