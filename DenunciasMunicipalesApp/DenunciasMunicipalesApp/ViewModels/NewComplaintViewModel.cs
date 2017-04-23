@@ -1,4 +1,5 @@
-﻿using DenunciasMunicipalesApp.Services;
+﻿using DenunciasMunicipalesApp.Models;
+using DenunciasMunicipalesApp.Services;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.ComponentModel;
@@ -17,11 +18,7 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private string description;
 
-        private decimal caseAddress;
-
-        private DateTime date { get; set; }
-
-        private string createdBy { get; set; }
+        private string caseAddress;
 
         private bool isRunning;
 
@@ -46,7 +43,7 @@ namespace DenunciasMunicipalesApp.ViewModels
             }
         }
 
-        public decimal CaseAddress
+        public string CaseAddress
         {
             set
             {
@@ -127,6 +124,29 @@ namespace DenunciasMunicipalesApp.ViewModels
                 await dialogService.ShowMessage("Error", "Debe ingresar una dirección del caso");
                 return;
             }
+
+            var complaint = new Complaint
+            {
+                Description = Descrpition,
+                CaseAddress = CaseAddress,
+                Date = DateTime.Now, 
+                CreatedBy = "Alfredo Martinez",
+            };
+
+            IsRunning = true;
+            IsEnabled = false;
+            var response = await apiService.Post("http://denunciasmunicipalesbackend.azurewebsites.net", "/api", "/Complaints", complaint);
+            IsRunning = false;
+            IsEnabled = true;
+
+            if (!response.IsSuccess)
+            {
+                await dialogService.ShowMessage("Error", response.Message);
+                return;
+            }
+
+            await dialogService.ShowMessage("Información", "Su denuncia será atendida");
+            await navigationService.Back();
         }
         #endregion
     }

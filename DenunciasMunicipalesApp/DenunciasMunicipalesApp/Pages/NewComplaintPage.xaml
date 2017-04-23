@@ -27,7 +27,7 @@
       IsRunning="{Binding IsRunning, Mode=TwoWay}">
         </ActivityIndicator>
         <Button
-      Command="{Binding NewCaomplintCommand}"
+      Command="{Binding NewCamplaintCommand}"
       IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
       BorderRadius="20"
       HeightRequest="40"
