@@ -19,6 +19,9 @@ namespace DenunciasMunicipalesApp.ViewModels
         #region Constructors
         public MainViewModel()
         {
+            // Singleton
+            instance = this;
+
             // Services
             apiService = new ApiService();
             navigationService = new NavigationService();
@@ -51,6 +54,5 @@ namespace DenunciasMunicipalesApp.ViewModels
             return instance;
         }
         #endregion
-
     }
 }

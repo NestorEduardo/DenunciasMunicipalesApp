@@ -1,4 +1,5 @@
 ﻿using DenunciasMunicipalesApp.Pages;
+using DenunciasMunicipalesApp.ViewModels;
 using System.Threading.Tasks;
 
 namespace DenunciasMunicipalesApp.Services
@@ -10,6 +11,8 @@ namespace DenunciasMunicipalesApp.Services
             switch (pageName)
             {
                 case "NewComplaintPage":
+                    var mainViewModel = MainViewModel.GetInstance();
+                    mainViewModel.NewComplaint = new NewComplaintViewModel();
                     await App.Current.MainPage.Navigation.PushAsync(new NewComplaintPage());
                     break;
                 default:
