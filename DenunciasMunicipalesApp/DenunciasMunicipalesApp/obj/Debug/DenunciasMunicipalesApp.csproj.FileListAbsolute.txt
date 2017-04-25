@@ -214,3 +214,7 @@ C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
