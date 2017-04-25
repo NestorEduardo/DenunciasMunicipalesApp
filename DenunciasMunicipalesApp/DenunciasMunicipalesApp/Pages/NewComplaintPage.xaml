@@ -4,13 +4,15 @@
              xmlns:control="clr-namespace:DenunciasMunicipalesApp.Controls"
              x:Class="DenunciasMunicipalesApp.Pages.NewComplaintPage"
              Title="Nueva denuncia"
+             BackgroundColor="Silver"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
-    
+    <ScrollView>
         <StackLayout Padding="30"
                      Spacing="10"
                      BindingContext="{Binding NewComplaint}">
 
-        <Picker Title="Tipo de Denuncia"
+            <Picker BackgroundColor="White"  
+            Title="Tipo de Denuncia"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 WidthRequest="500">
@@ -30,23 +32,39 @@
             </Picker.ItemsSource>
         </Picker>
 
-        <Entry Text="{Binding CaseAddress, Mode=TwoWay}"
+        <Entry BackgroundColor="White" 
+            Text="{Binding CaseAddress, Mode=TwoWay}"
                    Placeholder="Dirección del Caso"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="500"
                    HeightRequest="70"/>
 
-            <Entry Text="{Binding Description, Mode=TwoWay}"
+            <Entry BackgroundColor="White" 
+                Text="{Binding Description, Mode=TwoWay}"
                    Placeholder="Descripción del Caso"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="500"
                    HeightRequest="70"/>
 
-        <ActivityIndicator IsRunning="{Binding IsRunning, Mode=TwoWay}">
-            
-        </ActivityIndicator>
+            <StackLayout
+                Orientation="Horizontal">
+                <Image
+                    HorizontalOptions="StartAndExpand"
+                    Source="ic_add_a_photo.png">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TakePictureCommand}"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <ActivityIndicator
+                    HorizontalOptions="EndAndExpand"
+                    IsRunning="{Binding IsRunning, Mode=TwoWay}">
+                </ActivityIndicator>
+            </StackLayout>
+            <Image
+                Source="{Binding ImageSource, Mode=TwoWay}">
+            </Image>
 
             <Button Command="{Binding NewComplaintCommand}"
                 IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
@@ -61,10 +79,10 @@
 
             <Button HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    Image="camara.png"
+                    Image="ic_add_a_photo.png"
                     HeightRequest="50"
                     WidthRequest="50"
                     BackgroundColor="White"/>
-
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

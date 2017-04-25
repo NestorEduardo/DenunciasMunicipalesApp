@@ -13,5 +13,7 @@ namespace DenunciasMunicipalesApp.Models
         public DateTime Date { get; set; }
 
         public string CreatedBy { get; set; }
+
+        public string Image { get; set; }
     }
 }

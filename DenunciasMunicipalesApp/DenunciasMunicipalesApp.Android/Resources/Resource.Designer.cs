@@ -1946,16 +1946,16 @@ namespace DenunciasMunicipalesApp.Droid
 			public const int asde = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int camara = 2130837580;
+			public const int design_fab_background = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int design_fab_background = 2130837581;
+			public const int design_snackbar_background = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int design_snackbar_background = 2130837582;
+			public const int ic_action_add_circle = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_action_add_circle = 2130837583;
+			public const int ic_add_a_photo = 2130837583;
 			
 			// aapt resource value: 0x7f020050
 			public const int ic_audiotrack = 2130837584;

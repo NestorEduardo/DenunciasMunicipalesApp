@@ -1,13 +1,16 @@
 ﻿using DenunciasMunicipalesApp.Models;
 using DenunciasMunicipalesApp.Services;
 using GalaSoft.MvvmLight.Command;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 using System;
 using System.ComponentModel;
 using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace DenunciasMunicipalesApp.ViewModels
 {
-    public class NewComplaintViewModel : INotifyPropertyChanged
+    public class NewComplaintViewModel : Complaint, INotifyPropertyChanged
     {
         #region Attributes
         private ApiService apiService;
@@ -16,48 +19,16 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private NavigationService navigationService;
 
-        private string description;
-
-        private string caseAddress;
-
         private bool isRunning;
 
         private bool isEnabled;
+
+        private ImageSource imageSource;
+
+        private MediaFile file;
         #endregion
 
         #region Properties
-
-        public string Description
-        {
-            set
-            {
-                if (description != value)
-                {
-                    description = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Description"));
-                }
-            }
-            get
-            {
-                return description;
-            }
-        }
-
-        public string CaseAddress
-        {
-            set
-            {
-                if (caseAddress != value)
-                {
-                    caseAddress = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("CaseAddress"));
-                }
-            }
-            get
-            {
-                return caseAddress;
-            }
-        }
 
         public bool IsRunning
         {
@@ -91,6 +62,22 @@ namespace DenunciasMunicipalesApp.ViewModels
             }
         }
 
+        public ImageSource ImageSource
+        {
+            set
+            {
+                if (imageSource != value)
+                {
+                    imageSource = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("ImageSource"));
+                }
+            }
+            get
+            {
+                return imageSource;
+            }
+        }
+
         #endregion
 
         #region Constructors
@@ -109,8 +96,38 @@ namespace DenunciasMunicipalesApp.ViewModels
         #endregion
 
         #region Commands
-        public ICommand NewComplaintCommand { get { return new RelayCommand(NewComplaint); } }
+        public ICommand TakePictureCommand { get { return new RelayCommand(TakePicture); } }
 
+        private async void TakePicture()
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await dialogService.ShowMessage("No hay cámara ", ":( No hay cámara disponible");
+            }
+
+            file = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+            {
+                Directory = "Sample",
+                Name = "test.jpg",
+                PhotoSize = PhotoSize.Small,
+            });
+
+            IsRunning = true;
+
+            if (file != null)
+            {
+                ImageSource = ImageSource.FromStream(() =>
+                {
+                    var stream = file.GetStream();
+                    return stream;
+                });
+            }
+        }
+
+
+        public ICommand NewComplaintCommand { get { return new RelayCommand(NewComplaint); } }
         private async void NewComplaint()
         {
             if (string.IsNullOrEmpty(Description))
@@ -129,7 +146,7 @@ namespace DenunciasMunicipalesApp.ViewModels
             {
                 Description = Description,
                 CaseAddress = CaseAddress,
-                Date = DateTime.Today, 
+                Date = DateTime.Today,
                 CreatedBy = "Alfredo Martinez",
             };
 
@@ -148,6 +165,7 @@ namespace DenunciasMunicipalesApp.ViewModels
             await dialogService.ShowMessage("Información", "Su denuncia será atendida");
             await navigationService.Back();
         }
+
         #endregion
     }
 }

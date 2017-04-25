@@ -47,6 +47,8 @@
       <string>Icon-Small@3x</string>
     </array>
     <key>UILaunchStoryboardName</key>
+    <key>NSCameraUsageDescription</key>
+    <key>NSPhotoLibraryUsageDescription</key>
     <string>LaunchScreen</string>
   </dict>
 </plist>
