@@ -1,4 +1,5 @@
-﻿using DenunciasMunicipalesApp.Models;
+﻿using DenunciasMunicipalesApp.Classes;
+using DenunciasMunicipalesApp.Models;
 using DenunciasMunicipalesApp.Services;
 using GalaSoft.MvvmLight.Command;
 using Plugin.Media;
@@ -142,17 +143,21 @@ namespace DenunciasMunicipalesApp.ViewModels
                 return;
             }
 
+            var imageArray = FilesHelper.ReadFully(file.GetStream());
+            file.Dispose();
+
             var complaint = new Complaint
             {
                 Description = Description,
                 CaseAddress = CaseAddress,
                 Date = DateTime.Today,
                 CreatedBy = "Alfredo Martinez",
+                ImageArray = imageArray,
             };
 
             IsRunning = true;
             IsEnabled = false;
-            var response = await apiService.Post("http://denunciasmunicipalesbackend.azurewebsites.net", "/api", "/Complaints", complaint);
+            var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Complaints", complaint);
             IsRunning = false;
             IsEnabled = true;
 

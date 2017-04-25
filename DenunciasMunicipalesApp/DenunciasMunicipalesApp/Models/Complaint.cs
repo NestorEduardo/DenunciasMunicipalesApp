@@ -15,5 +15,7 @@ namespace DenunciasMunicipalesApp.Models
         public string CreatedBy { get; set; }
 
         public string Image { get; set; }
+
+        public byte[] ImageArray { get; set; }
     }
 }
