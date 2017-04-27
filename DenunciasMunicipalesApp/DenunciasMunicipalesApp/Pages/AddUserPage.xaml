@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:control="clr-namespace:DenunciasMunicipalesApp.Controls"
              x:Class="DenunciasMunicipalesApp.Pages.AddUserPage"
-             Title="Nueva usuario"
+             Title="Nuevo usuario"
              BackgroundColor="Silver"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
 
@@ -32,6 +32,7 @@
                    WidthRequest="300"/>
 
                 <Entry x:Name="Password"
+                       IsPassword="true" 
                    Text="{Binding Password, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Contraseña"
@@ -40,6 +41,7 @@
                    WidthRequest="300"/>
 
                 <Entry x:Name="PasswordConfirmation"
+                       IsPassword="true" 
                    Text="{Binding PasswordConfirmation, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Confirmar contraseña"

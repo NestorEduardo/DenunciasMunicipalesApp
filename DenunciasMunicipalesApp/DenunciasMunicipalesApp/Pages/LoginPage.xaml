@@ -29,6 +29,7 @@
                         WidthRequest="500"/>
 
                 <Entry  x:Name="txtcontraseña"
+                        IsPassword="true" 
                         Placeholder="Contraseña"
                         TextColor="Gray"
                         IsPassword="true"
