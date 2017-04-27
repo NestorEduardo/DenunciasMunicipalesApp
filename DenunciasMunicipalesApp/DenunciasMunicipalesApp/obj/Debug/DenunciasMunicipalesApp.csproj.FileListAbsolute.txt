@@ -112,8 +112,6 @@ C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicip
 C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.AddUserPage.xaml.g.cs
 C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll
 C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.pdb
-C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.config
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.pdb
@@ -210,11 +208,11 @@ C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.pdb
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\Downloads\DenunciasMunicipalesApp-master\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.Abstractions.dll
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.dll
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.pdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.xml
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.Abstractions.xml
 C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\Nestor\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb

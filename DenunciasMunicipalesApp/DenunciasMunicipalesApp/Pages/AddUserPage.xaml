@@ -1,43 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DenunciasMunicipalesApp.Pages.AddUserPage">
+             xmlns:control="clr-namespace:DenunciasMunicipalesApp.Controls"
+             x:Class="DenunciasMunicipalesApp.Pages.AddUserPage"
+             Title="Nueva usuario"
+             BackgroundColor="Silver"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}">
 
     <ContentPage.Content>
 
         <ScrollView>
 
-            <StackLayout Spacing="10">
+            <StackLayout Spacing="10"
+                         Padding="8"
+                         BindingContext="{Binding AddUser}">
 
-                <Entry x:Name="entryNombre"
+                <Entry x:Name="FullName"
+                   Text="{Binding FullName, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Nombres"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="300"/>
 
-                <Entry x:Name="entryCorreo"
+                <Entry x:Name="Email"
+                   Text="{Binding Email, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Correo electrónico"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="300"/>
 
-                <Entry x:Name="entryContraseña"
+                <Entry x:Name="Password"
+                   Text="{Binding Password, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Contraseña"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="300"/>
 
-                <Entry x:Name="entryConfirmarContraseña"
+                <Entry x:Name="PasswordConfirmation"
+                   Text="{Binding PasswordConfirmation, Mode=TwoWay}"
                    TextColor="Gray"
                    Placeholder="Confirmar contraseña"
                    HorizontalOptions="Center"
                    VerticalOptions="Center"
                    WidthRequest="300"/>
 
-                <Button x:Name="registarButton"
+                <Button Command="{Binding AddUserCommand}"
                     Text="Registrar"
                     BackgroundColor="Red"
                     HorizontalOptions="Center"

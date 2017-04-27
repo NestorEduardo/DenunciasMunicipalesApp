@@ -9,7 +9,7 @@
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <application android:label="DenunciasMunicipalesApp.Android" android:name="md571f973d827ee539e8278dbebc5b88a12.MainApplication" android:allowBackup="true" android:icon="@drawable/launcher" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/launcher" android:label="DenunciasMunicipalesApp" android:theme="@style/MainTheme" android:name="md571f973d827ee539e8278dbebc5b88a12.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/launcher" android:label="Denuncias Municipales" android:theme="@style/MainTheme" android:name="md571f973d827ee539e8278dbebc5b88a12.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

@@ -38,9 +38,16 @@ namespace DenunciasMunicipalesApp.ViewModels
         #region Commands
         public ICommand AddComplaintCommand { get { return new RelayCommand(AddComplaint); } }
 
+        public ICommand AddUserCommand { get { return new RelayCommand(AddUser); } }
+
         private async void AddComplaint()
         {
             await navigationService.Navigate("NewComplaintPage");
+        }
+
+        private async void AddUser()
+        {
+            await navigationService.Navigate("AddUserPage");
         }
         #endregion
 
