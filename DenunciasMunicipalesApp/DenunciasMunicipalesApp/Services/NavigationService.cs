@@ -8,12 +8,17 @@ namespace DenunciasMunicipalesApp.Services
     {
         public async Task Navigate(string pageName)
         {
+            var mainViewModel = MainViewModel.GetInstance();
+
             switch (pageName)
             {
                 case "NewComplaintPage":
-                    var mainViewModel = MainViewModel.GetInstance();
                     mainViewModel.NewComplaint = new NewComplaintViewModel();
                     await App.Current.MainPage.Navigation.PushAsync(new NewComplaintPage());
+                    break;
+                case "NewUserPage":
+                    mainViewModel.NewUser = new NewUserViewModel();
+                    await App.Current.MainPage.Navigation.PushAsync(new NewUserPage());
                     break;
                 default:
                     break;

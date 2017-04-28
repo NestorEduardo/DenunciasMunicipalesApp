@@ -15,7 +15,7 @@ namespace DenunciasMunicipalesApp.Pages
 
         private async void registrarButton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AddUserPage());
+         //   Navigation.PushAsync(new AddUserPage());
         }
 
         private async void accederButton_Clicked(object sender, EventArgs e)

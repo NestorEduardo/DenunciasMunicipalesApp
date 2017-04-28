@@ -30,7 +30,6 @@ namespace DenunciasMunicipalesApp.ViewModels
         #endregion
 
         #region Properties
-
         public bool IsRunning
         {
             set
@@ -139,14 +138,16 @@ namespace DenunciasMunicipalesApp.ViewModels
                 return;
             }
 
-            var file = await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
+            var file = await CrossMedia.Current.TakeVideoAsync(new StoreVideoOptions
             {
                 Name = "video.mp4",
                 Directory = "DefaultVideos",
             });
 
             if (file == null)
+            {
                 return;
+            }
 
             await dialogService.ShowMessage("Vídeo grabado en:" + file.Path, "Entendido");
 
@@ -195,7 +196,6 @@ namespace DenunciasMunicipalesApp.ViewModels
             await dialogService.ShowMessage("Información", "Su denuncia será atendida");
             await navigationService.Back();
         }
-
         #endregion
     }
 }

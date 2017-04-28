@@ -16,6 +16,8 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         #region Properties
         public NewComplaintViewModel NewComplaint{ get; set; }
+
+        public NewUserViewModel NewUser { get; set; }
         #endregion
 
         #region Constructors
@@ -32,7 +34,6 @@ namespace DenunciasMunicipalesApp.ViewModels
         #endregion
 
         #region Methods
-
         #endregion
 
         #region Commands
@@ -47,7 +48,7 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private async void AddUser()
         {
-            await navigationService.Navigate("AddUserPage");
+            await navigationService.Navigate("NewUserPage");
         }
         #endregion
 
