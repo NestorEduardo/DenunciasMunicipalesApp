@@ -11,13 +11,17 @@
 namespace DenunciasMunicipalesApp.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\nesto\\Desktop\\DenunciasMuncipales\\DenunciasMunicipalesApp\\DenunciasMunic" +
-        "ipalesApp\\DenunciasMunicipalesApp\\Pages\\NewComplaintPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Hommy De Jesus\\DenunciasMunicipalesApp\\DenunciasMunicipalesApp\\Denuncias" +
+        "MunicipalesApp\\Pages\\NewComplaintPage.xaml")]
     public partial class NewComplaintPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button pickVideo;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(NewComplaintPage));
+            pickVideo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "pickVideo");
         }
     }
 }

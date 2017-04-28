@@ -32,7 +32,6 @@
                         IsPassword="true" 
                         Placeholder="Contraseña"
                         TextColor="Gray"
-                        IsPassword="true"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         WidthRequest="500"/>

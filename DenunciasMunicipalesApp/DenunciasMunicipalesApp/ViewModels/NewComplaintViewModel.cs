@@ -127,6 +127,31 @@ namespace DenunciasMunicipalesApp.ViewModels
             }
         }
 
+        public ICommand TakeVideoCommand { get { return new RelayCommand(TakeVideo); } }
+
+        private async void TakeVideo()
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakeVideoSupported)
+            {
+                await dialogService.ShowMessage("No hay cámara ", ":( No hay cámara disponible");
+                return;
+            }
+
+            var file = await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
+            {
+                Name = "video.mp4",
+                Directory = "DefaultVideos",
+            });
+
+            if (file == null)
+                return;
+
+            await dialogService.ShowMessage("Vídeo grabado en:" + file.Path, "Entendido");
+
+            file.Dispose();
+        }
 
         public ICommand NewComplaintCommand { get { return new RelayCommand(NewComplaint); } }
         private async void NewComplaint()
