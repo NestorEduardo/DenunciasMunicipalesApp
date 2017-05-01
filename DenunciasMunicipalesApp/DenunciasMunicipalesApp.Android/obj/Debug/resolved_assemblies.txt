@@ -44,6 +44,7 @@ C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipa
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.IO.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Net.Primitives.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Threading.dll
@@ -52,7 +53,6 @@ C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipa
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Reflection.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Collections.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\System.Globalization.dll

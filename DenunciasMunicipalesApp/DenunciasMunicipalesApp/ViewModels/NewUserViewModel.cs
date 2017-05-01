@@ -150,9 +150,21 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             IsRunning = true;
             IsEnabled = false;
+            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users");
+
+            foreach (var userItem in users)
+            {
+                if (userItem.Email == user.Email)
+                {
+                    await dialogService.ShowMessage("Error", "Ya existe un usuario registrado con ese correo electrónico");
+                    IsRunning = false;
+                    IsEnabled = true;
+                    return;
+                }
+            }
+
             var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users", user);
-            IsRunning = false;
-            IsEnabled = true;
+
 
             if (!response.IsSuccess)
             {

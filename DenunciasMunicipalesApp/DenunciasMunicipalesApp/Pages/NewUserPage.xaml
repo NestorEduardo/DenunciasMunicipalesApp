@@ -19,7 +19,8 @@
                        VerticalOptions="Center"
                        WidthRequest="300"/>
 
-        <Entry x:Name="Email"
+        <Entry Keyboard="Email" x:Name="Email"
+               
                        Text="{Binding Email, Mode=TwoWay}"
                        TextColor="Gray"
                        Placeholder="Correo electrónico"
