@@ -18,6 +18,8 @@ namespace DenunciasMunicipalesApp.ViewModels
         public NewComplaintViewModel NewComplaint{ get; set; }
 
         public NewUserViewModel NewUser { get; set; }
+
+        public LoginViewModel LoginUser { get; set; }
         #endregion
 
         #region Constructors

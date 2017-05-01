@@ -11,7 +11,8 @@
         <ScrollView>
 
             <StackLayout Spacing="10" 
-                         Padding="30">
+                         Padding="30"
+                         BindingContext="{Binding LoginUser}">
 
                 <Image Source="asde.png"/>
 
@@ -21,14 +22,16 @@
                         HorizontalOptions="FillAndExpand"
                         VerticalOptions="Center"/>
 
-                <Entry  x:Name="txtcorreo"
+                <Entry  x:Name="Email"
+                        Text="{Binding Email, Mode=TwoWay}"
                         Placeholder="Correo electrónico"
                         TextColor="Gray"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         WidthRequest="500"/>
 
-                <Entry  x:Name="txtcontraseña"
+                <Entry  x:Name="Password"
+                        Text="{Binding Password, Mode=TwoWay}"
                         IsPassword="true" 
                         Placeholder="Contraseña"
                         TextColor="Gray"
@@ -37,6 +40,8 @@
                         WidthRequest="500"/>
 
                 <Button x:Name="accederButton"
+                        Command="{Binding LoginCommand}"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                         Text="Acceder"
                         TextColor="White"
                         BackgroundColor="Navy"
@@ -46,6 +51,7 @@
                         WidthRequest="500"/>
 
                 <Button x:Name="crearUsuario"
+                        IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                         Command="{Binding AddUserCommand}"
                         Text="Nuevo Usuario" 
                         TextColor="White"
@@ -53,11 +59,10 @@
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         WidthRequest="500"
-                        HeightRequest="60"
-                        Clicked="registrarButton_Clicked"/>
+                        HeightRequest="60"/>
 
-                <ActivityIndicator x:Name="waitActivityIndicator">
-
+                <ActivityIndicator HorizontalOptions="EndAndExpand"
+                                   IsRunning="{Binding IsRunning, Mode=TwoWay}">
                 </ActivityIndicator>
 
             </StackLayout>
