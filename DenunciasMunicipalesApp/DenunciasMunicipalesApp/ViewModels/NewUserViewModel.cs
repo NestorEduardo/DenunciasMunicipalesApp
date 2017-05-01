@@ -3,6 +3,7 @@ using DenunciasMunicipalesApp.Models;
 using DenunciasMunicipalesApp.Services;
 using GalaSoft.MvvmLight.Command;
 using System.ComponentModel;
+using System.Text.RegularExpressions;
 using System.Windows.Input;
 
 namespace DenunciasMunicipalesApp.ViewModels
@@ -148,34 +149,54 @@ namespace DenunciasMunicipalesApp.ViewModels
                 Points = 0,
             };
 
-            IsRunning = true;
-            IsEnabled = false;
-            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users");
-
-            foreach (var userItem in users)
+            if (IsAValidEmail(user.Email))
             {
-                if (userItem.Email == user.Email)
+
+                IsRunning = true;
+                IsEnabled = false;
+                var users = await apiService.Get<User>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users");
+
+                foreach (var userItem in users)
                 {
-                    await dialogService.ShowMessage("Error", "Ya existe un usuario registrado con ese correo electrónico");
-                    IsRunning = false;
-                    IsEnabled = true;
+                    if (userItem.Email == user.Email)
+                    {
+                        await dialogService.ShowMessage("Error", "Ya existe un usuario registrado con ese correo electrónico");
+                        IsRunning = false;
+                        IsEnabled = true;
+                        return;
+                    }
+                }
+
+                var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users", user);
+
+
+                if (!response.IsSuccess)
+                {
+                    await dialogService.ShowMessage("Error", response.Message);
                     return;
                 }
+
+                await dialogService.ShowMessage("Información", "Gracias por registrarte");
+                await navigationService.Navigate("NewComplaintPage");
             }
-
-            var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users", user);
-
-
-            if (!response.IsSuccess)
+            else
             {
-                await dialogService.ShowMessage("Error", response.Message);
-                return;
+                await dialogService.ShowMessage("Error", "Debe ingresar un correo electrónico válido");
             }
 
-            await dialogService.ShowMessage("Información", "Gracias por registrarte");
-            await navigationService.Navigate("NewComplaintPage");
         }
+        #endregion
 
+        #region Methods
+        Regex EmailRegex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+
+        public bool IsAValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            return EmailRegex.IsMatch(email);
+        }
         #endregion
     }
 }
