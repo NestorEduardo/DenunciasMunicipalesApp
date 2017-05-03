@@ -20,6 +20,10 @@ namespace DenunciasMunicipalesApp.Services
                     mainViewModel.NewUser = new NewUserViewModel();
                     await App.Current.MainPage.Navigation.PushAsync(new NewUserPage());
                     break;
+                case "ComplaintsPage":
+                    mainViewModel.Complaints = new ComplaintsViewModel();
+                    await App.Current.MainPage.Navigation.PushAsync(new ComplaintsPage());
+                    break;
                 default:
                     break;
             }

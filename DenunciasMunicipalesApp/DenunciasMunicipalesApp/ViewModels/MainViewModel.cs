@@ -20,6 +20,8 @@ namespace DenunciasMunicipalesApp.ViewModels
         public NewUserViewModel NewUser { get; set; }
 
         public LoginViewModel LoginUser { get; set; }
+
+        public ComplaintsViewModel Complaints { get; set; }
         #endregion
 
         #region Constructors
@@ -42,6 +44,8 @@ namespace DenunciasMunicipalesApp.ViewModels
         public ICommand AddComplaintCommand { get { return new RelayCommand(AddComplaint); } }
 
         public ICommand AddUserCommand { get { return new RelayCommand(AddUser); } }
+
+     //   public ICommand ComaplintsCommand { get { return new RelayCommand(Complaints); } }
 
         private async void AddComplaint()
         {

@@ -11,8 +11,8 @@
 namespace DenunciasMunicipalesApp {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Hommy De Jesus\\DenunciasMunicipalesApp\\DenunciasMunicipalesApp\\Denuncias" +
-        "MunicipalesApp\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Nestor\\DenunciasMunicipalesApp\\DenunciasMunicipalesApp\\DenunciasMunicipa" +
+        "lesApp\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

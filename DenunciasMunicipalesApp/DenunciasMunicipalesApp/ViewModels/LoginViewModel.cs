@@ -111,7 +111,7 @@ namespace DenunciasMunicipalesApp.ViewModels
                 {
                     if (user.Password == userItem.Password)
                     {
-                        await navigationService.Navigate("NewComplaintPage");
+                        await navigationService.Navigate("ComplaintsPage");
                         return;
                     }
                 }

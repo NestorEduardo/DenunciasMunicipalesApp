@@ -5,7 +5,10 @@ using GalaSoft.MvvmLight.Command;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -78,17 +81,47 @@ namespace DenunciasMunicipalesApp.ViewModels
             }
         }
 
+        public ObservableCollection<ComplaintTypesItemViewModel> ComplaintTypes { get; set; }
+
         #endregion
 
         #region Constructors
         public NewComplaintViewModel()
         {
+            ComplaintTypes = new ObservableCollection<ComplaintTypesItemViewModel>();
+
             apiService = new ApiService();
             dialogService = new DialogService();
             navigationService = new NavigationService();
 
             IsEnabled = true;
+            LoadComplaintTypes();
+
         }
+        #endregion
+
+        #region Methods
+        private async void LoadComplaintTypes()
+        {
+            var complaintTypes = new List<ComplaintType>();
+            complaintTypes = await apiService.Get<ComplaintType>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/ComplaintTypes");
+            ReloadComplaintTypes(complaintTypes);
+        }
+
+        private void ReloadComplaintTypes(List<ComplaintType> complaintTypes)
+        {
+            ComplaintTypes.Clear();
+
+            foreach (var complaintType in complaintTypes.OrderBy(ct => ct.Description))
+            {
+                ComplaintTypes.Add(new ComplaintTypesItemViewModel
+                {
+                    ComplaintTypeId = complaintType.ComplaintTypeId,
+                    Description = complaintType.Description,
+                });
+            }
+        }
+
         #endregion
 
         #region Events
@@ -179,6 +212,8 @@ namespace DenunciasMunicipalesApp.ViewModels
                 Date = DateTime.Today,
                 CreatedBy = "Alfredo Martinez",
                 ImageArray = imageArray,
+                ComplaintTypeId = ComplaintTypeId,
+                ComplaintTypeName = ComplaintTypeName
             };
 
             IsRunning = true;
