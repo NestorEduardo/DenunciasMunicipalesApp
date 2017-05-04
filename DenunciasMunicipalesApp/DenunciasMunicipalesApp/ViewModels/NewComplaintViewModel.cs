@@ -213,7 +213,6 @@ namespace DenunciasMunicipalesApp.ViewModels
                 CreatedBy = "Alfredo Martinez",
                 ImageArray = imageArray,
                 ComplaintTypeId = ComplaintTypeId,
-                ComplaintTypeName = ComplaintTypeName
             };
 
             IsRunning = true;
