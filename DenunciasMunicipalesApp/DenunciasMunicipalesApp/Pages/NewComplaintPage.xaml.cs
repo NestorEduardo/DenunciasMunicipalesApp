@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Plugin.Media;
+﻿using Plugin.Media;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using DenunciasMunicipalesApp.ViewModels;
+using Plugin.Geolocator;
+using Xamarin.Forms.Maps;
 
 namespace DenunciasMunicipalesApp.Pages
 {
@@ -16,21 +14,42 @@ namespace DenunciasMunicipalesApp.Pages
         {
             InitializeComponent();
 
-            pickVideo.Clicked += async (sender, args) =>
+            var mainViewModel = new MainViewModel();
+            mainViewModel.GetGeolotation();
+            foreach (Pin item in mainViewModel.Pins)
             {
-                if (!CrossMedia.Current.IsPickVideoSupported)
-                {
-                    DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
-                    return;
-                }
-                var file = await CrossMedia.Current.PickVideoAsync();
+                MyMap.Pins.Add(item);
+            }
 
-                if (file == null)
-                    return;
+            Locator();
 
-                DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
-                file.Dispose();
-            };
+
+
+            pickVideo.Clicked += async (sender, args) =>
+        {
+            if (!CrossMedia.Current.IsPickVideoSupported)
+            {
+                DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
+                return;
+            }
+            var file = await CrossMedia.Current.PickVideoAsync();
+
+            if (file == null)
+                return;
+
+            DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
+            file.Dispose();
+        };
+        }
+
+        private async void Locator()
+        {
+            var locator = CrossGeolocator.Current;
+            locator.DesiredAccuracy = 50;
+
+            var location = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
+            var position = new Position(location.Latitude, location.Longitude);
+            MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(position, Distance.FromMiles(.3)));
         }
     }
 }

@@ -11,6 +11,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 
 namespace DenunciasMunicipalesApp.ViewModels
 {
@@ -23,6 +24,8 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         private NavigationService navigationService;
 
+        private GeolocatorService geolocatorService;
+
         private bool isRunning;
 
         private bool isEnabled;
@@ -30,6 +33,8 @@ namespace DenunciasMunicipalesApp.ViewModels
         private ImageSource imageSource;
 
         private MediaFile file;
+
+        public ObservableCollection<Pin> Pins { get; set; }
         #endregion
 
         #region Properties
@@ -87,15 +92,19 @@ namespace DenunciasMunicipalesApp.ViewModels
 
         #region Constructors
         public NewComplaintViewModel()
-        {
+        { 
+
             ComplaintTypes = new ObservableCollection<ComplaintTypesItemViewModel>();
 
             apiService = new ApiService();
             dialogService = new DialogService();
             navigationService = new NavigationService();
+            geolocatorService = new GeolocatorService();
 
             IsEnabled = true;
             LoadComplaintTypes();
+
+            Pins = new ObservableCollection<Pin>();
 
         }
         #endregion
@@ -129,7 +138,18 @@ namespace DenunciasMunicipalesApp.ViewModels
         #endregion
 
         #region Commands
+
         public ICommand TakePictureCommand { get { return new RelayCommand(TakePicture); } }
+
+
+        public ICommand ClickCommand { get { return new RelayCommand(Click); } }
+
+        private async void Click()
+        {
+
+        }
+
+
 
         private async void TakePicture()
         {
@@ -205,6 +225,8 @@ namespace DenunciasMunicipalesApp.ViewModels
             var imageArray = FilesHelper.ReadFully(file.GetStream());
             file.Dispose();
 
+            await geolocatorService.GetLocationAsync();
+
             var complaint = new Complaint
             {
                 Description = Description,
@@ -213,6 +235,8 @@ namespace DenunciasMunicipalesApp.ViewModels
                 CreatedBy = "Alfredo Martinez",
                 ImageArray = imageArray,
                 ComplaintTypeId = ComplaintTypeId,
+                Latitude = geolocatorService.Latitude,
+                Longitude = geolocatorService.Longitude,
             };
 
             IsRunning = true;
