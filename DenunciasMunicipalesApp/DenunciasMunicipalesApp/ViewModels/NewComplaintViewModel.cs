@@ -241,7 +241,7 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             IsRunning = true;
             IsEnabled = false;
-            var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Complaints", complaint);
+            var response = await apiService.Post("http://denunciasmunicipalesbackend0.azurewebsites.net", "/api", "/Complaints", complaint);
             IsRunning = false;
             IsEnabled = true;
 

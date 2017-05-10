@@ -157,7 +157,7 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             IsRunning = true;
             IsEnabled = false;
-            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users");
+            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend0.azurewebsites.net", "/api", "/Users");
 
             foreach (var userItem in users)
             {
@@ -170,7 +170,7 @@ namespace DenunciasMunicipalesApp.ViewModels
                 }
             }
 
-            var response = await apiService.Post("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/Users", user);
+            var response = await apiService.Post("http://denunciasmunicipalesbackend0.azurewebsites.net", "/api", "/Users", user);
 
 
             if (!response.IsSuccess)
