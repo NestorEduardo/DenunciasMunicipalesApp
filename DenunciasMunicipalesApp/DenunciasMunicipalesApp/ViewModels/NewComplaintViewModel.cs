@@ -113,7 +113,7 @@ namespace DenunciasMunicipalesApp.ViewModels
         private async void LoadComplaintTypes()
         {
             var complaintTypes = new List<ComplaintType>();
-            complaintTypes = await apiService.Get<ComplaintType>("http://denunciasmunicipalesbackend2.azurewebsites.net", "/api", "/ComplaintTypes");
+            complaintTypes = await apiService.Get<ComplaintType>("http://denunciasmunicipalesbackend0.azurewebsites.net/", "/api", "/ComplaintTypes");
             ReloadComplaintTypes(complaintTypes);
         }
 
