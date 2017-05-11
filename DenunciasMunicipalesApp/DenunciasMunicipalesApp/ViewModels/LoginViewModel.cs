@@ -101,7 +101,7 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             IsRunning = true;
             IsEnabled = false;
-            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend2.azurewebsites.net/", "/api", "/Users");
+            var users = await apiService.Get<User>("http://denunciasmunicipalesbackend0.azurewebsites.net/", "/api", "/Users");
             IsRunning = false;
             IsEnabled = true;
 
