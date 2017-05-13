@@ -106,6 +106,8 @@ namespace DenunciasMunicipalesApp.ViewModels
 
             Pins = new ObservableCollection<Pin>();
 
+
+
         }
         #endregion
 
@@ -210,6 +212,9 @@ namespace DenunciasMunicipalesApp.ViewModels
         public ICommand NewComplaintCommand { get { return new RelayCommand(NewComplaint); } }
         private async void NewComplaint()
         {
+            await geolocatorService.GetLocationAsync();
+
+
             if (string.IsNullOrEmpty(Description))
             {
                 await dialogService.ShowMessage("Error", "Debe ingresar una descripción");
@@ -225,7 +230,6 @@ namespace DenunciasMunicipalesApp.ViewModels
             var imageArray = FilesHelper.ReadFully(file.GetStream());
             file.Dispose();
 
-            await geolocatorService.GetLocationAsync();
 
             var complaint = new Complaint
             {
@@ -236,12 +240,12 @@ namespace DenunciasMunicipalesApp.ViewModels
                 ImageArray = imageArray,
                 ComplaintTypeId = ComplaintTypeId,
                 Latitude = geolocatorService.Latitude,
-                Longitude = geolocatorService.Longitude,
+                Longitude = geolocatorService.Latitude,
             };
 
             IsRunning = true;
             IsEnabled = false;
-            var response = await apiService.Post("http://denunciasmunicipalesbackend0.azurewebsites.net", "/api", "/Complaints", complaint);
+            var response = await apiService.Post("http://denunciasmunicipalesbackend0.azurewebsites.net/", "/api", "/Complaints", complaint);
             IsRunning = false;
             IsEnabled = true;
 

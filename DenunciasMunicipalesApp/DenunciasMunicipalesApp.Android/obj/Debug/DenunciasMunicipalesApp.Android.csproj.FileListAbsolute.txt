@@ -278,7 +278,6 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.config
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.pdb
@@ -777,5 +776,41 @@ C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipa
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.Abstractions.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLite-net.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Maps.Android.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Maps.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Base.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.GooglePlayServices.Maps.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.Abstractions.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.Abstractions.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Plugin.Messaging.Abstractions.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLite-net.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\SQLite-net.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Messaging.Abstractions.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\Plugin.Messaging.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\android\assets\SQLite-net.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\obj\Debug\DenunciasMunicipalesApp.Android.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp.Android\bin\Debug\DenunciasMunicipalesApp.Android.dll.mdb

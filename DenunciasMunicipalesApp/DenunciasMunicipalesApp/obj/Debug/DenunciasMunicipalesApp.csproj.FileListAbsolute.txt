@@ -71,7 +71,6 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.pdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.LoginPage.xaml.g.cs
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.AddUserPage.xaml.g.cs
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.config
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll
 E:\Apps\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.pdb
@@ -174,8 +173,6 @@ C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\Denuncia
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.xml
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.Abstractions.pdb
 C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Media.Abstractions.xml
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
-C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.config
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.pdb
@@ -348,5 +345,27 @@ C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipa
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.Abstractions.xml
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLite-net.xml
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.Abstractions.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLite-net.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Maps.dll
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Geolocator.Abstractions.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.Abstractions.pdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Plugin.Messaging.Abstractions.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\SQLite-net.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\Xamarin.Forms.Maps.xml
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.Pages.NewUserPage.xaml.g.cs
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
+C:\Users\Hommy De Jesus\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\obj\Debug\DenunciasMunicipalesApp.dll.mdb
 C:\Users\nesto\DenunciasMunicipalesApp\DenunciasMunicipalesApp\DenunciasMunicipalesApp\bin\Debug\DenunciasMunicipalesApp.dll.mdb
