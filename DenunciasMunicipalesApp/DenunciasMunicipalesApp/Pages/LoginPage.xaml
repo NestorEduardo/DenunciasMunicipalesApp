@@ -50,6 +50,15 @@
                         VerticalOptions="Center"
                         WidthRequest="500"/>
 
+                <Button Text="Acceder con Facebook" 
+                        TextColor="White"
+                        BackgroundColor="Blue"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        WidthRequest="500"
+                        HeightRequest="60"
+                        Clicked="LoginWithFacebook_Clicked"/>
+
                 <Button x:Name="crearUsuario"
                         IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                         Command="{Binding AddUserCommand}"

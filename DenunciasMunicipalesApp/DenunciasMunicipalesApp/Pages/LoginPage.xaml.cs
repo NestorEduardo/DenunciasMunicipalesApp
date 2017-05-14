@@ -1,4 +1,5 @@
 ﻿using DenunciasMunicipalesApp.ViewModels;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,5 +14,11 @@ namespace DenunciasMunicipalesApp.Pages
             mainViewModel.LoginUser = new LoginViewModel();
             InitializeComponent();
         }
+
+        private async void LoginWithFacebook_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new FacebookProfileCsPage());
+        }
+
     }
 }
